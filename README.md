@@ -54,12 +54,9 @@ Middleware is applied on all routes (/student, /teacher) to ensure role-level ac
 bash
 Copy
 Edit
-git clone https://github.com/your-username/appointment-management-system.git
+git clone [https://github.com/your-username/appointment-management-system.git](https://github.com/SatvikSarthak/appointmentManagementSystem.git)
 cd appointment-management-system
-2. Install Dependencies
-Copy
-Edit
-# Install backend & frontend dependencies
+2. Install backend & frontend dependencies
 npm install
 3. Configure Environment Variables
 Create a .env file in the root with the following:
@@ -68,14 +65,12 @@ env
 Copy
 Edit
 MONGODB_URI=your_mongodb_connection_string
-OPENAI_API_KEY=your_openai_key
 JWT_SECRET=your_jwt_secret
 4. Run the Development Server
-bash
+node server.js
 Copy
 Edit
-npm run dev
-The app will be available at http://localhost:3000
+The app will be available at http://localhost:5001
 
 🌟 Future Integrations
 📂 Upload timetable via Excel file for auto-scheduling
@@ -100,9 +95,6 @@ Manipal University Jaipur
 
 “Scheduling made smarter, one click at a time.”
 
-yaml
-Copy
-Edit
 
 ---
 
