@@ -39,3 +39,79 @@ A full-stack web application that simplifies and organizes the process of bookin
 Student/Teacher (Client) ─▶ Next.js Frontend ─▶ Express Backend ─▶ MongoDB
                                                   │
                                                   └──▶ Hugging Face API(Notes Gen)
+
+
+
+🔐 Authentication & Security
+Every protected route uses JWT-based authentication via a custom middleware.
+
+Passwords are stored using bcrypt hashing for maximum security.
+
+Middleware is applied on all routes (/student, /teacher) to ensure role-level access and session validation.
+
+🚀 Installation & Setup
+1. Clone the Repository
+bash
+Copy
+Edit
+git clone https://github.com/your-username/appointment-management-system.git
+cd appointment-management-system
+2. Install Dependencies
+Copy
+Edit
+# Install backend & frontend dependencies
+npm install
+3. Configure Environment Variables
+Create a .env file in the root with the following:
+
+env
+Copy
+Edit
+MONGODB_URI=your_mongodb_connection_string
+OPENAI_API_KEY=your_openai_key
+JWT_SECRET=your_jwt_secret
+4. Run the Development Server
+bash
+Copy
+Edit
+npm run dev
+The app will be available at http://localhost:3000
+
+🌟 Future Integrations
+📂 Upload timetable via Excel file for auto-scheduling
+
+📍 Real-time location-based meeting previews (Google Maps)
+
+🧠 ML-based time suggestion engine
+
+📈 Admin analytics dashboard
+
+🔔 Real-time notifications
+
+🤝 Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you'd like to change.
+
+📄 License
+MIT License
+
+👨‍💻 Developed By
+Satvik Sarthak
+Manipal University Jaipur
+
+“Scheduling made smarter, one click at a time.”
+
+yaml
+Copy
+Edit
+
+---
+
+Let me know if you'd like this exported as a downloadable `README.md` file or want help setting it up on GitHub.
+
+
+
+
+
+
+
+
