@@ -49,27 +49,22 @@ Passwords are stored using bcrypt hashing for maximum security.
 
 Middleware is applied on all routes (/student, /teacher) to ensure role-level access and session validation.
 
-🚀 Installation & Setup
-1. Clone the Repository
-bash
-Copy
-Edit
+## 🚀 Installation & Setup
+## 1. Clone the Repository
 git clone [https://github.com/your-username/appointment-management-system.git](https://github.com/SatvikSarthak/appointmentManagementSystem.git)
 cd appointment-management-system
-2. Install backend & frontend dependencies
+## 2. Install backend & frontend dependencies
 npm install
-3. Configure Environment Variables
+##3. Configure Environment Variables
 Create a .env file in the root with the following:
-
 env
-Copy
-Edit
+
 MONGODB_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
-4. Run the Development Server
+
+## 4. Run the Development Server
 node server.js
-Copy
-Edit
+
 The app will be available at http://localhost:5001
 
 🌟 Future Integrations
